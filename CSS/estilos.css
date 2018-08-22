@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 50px 550px;
+}
+
+.formulario{
+    background-color: #fafafa;
+    width: 500px;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.formulario h2{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+/* Botões */
+.btn {
+    background-color: #eee;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: background-color .2s;
+}
+
+.btn-blue{
+    background-color: #23ccef;
+    color: white;
+}
+
+.btn-blue:hover{
+    background-color: #2cbdda;
+}
+/* Fim dos Botões */
+
+/* Inputs-Texts */
+.text-input{
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 8px 16px;
+    transition: border-color .3s;
+}
+
+.text-input:focus{
+    border-color:#555;
+}
+/*Fim dos Inputs-text  */
+
+/* Select */
+.select{
+    border-radius: 5px;
+    color: #aaa;
+    padding: 8px 16px;
+}
+
+.select:focus{
+    color: #111;
+}
+
+/* Fim do Select */
+
+/* Caixa de Texto */
+.box-text{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 16px;
+    height: 100px;
+    width: 300px;
+    transition: border-color .3s;
+}
+
+.box-text:focus{
+    border-color: #555;
+}
+/* Fim da Caixa de Texto */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <section class="formulario">
+        <h2>Formulário</h2>
+        <form>
+            <label>Digite seu Nome:<br>
+            <input class="text-input" id="nome" type="text" placeholder="Insira seu nome" required maxlength="20">
+            </label><br><br>
+    
+            <label>Digite seu Email:<br>
+                <input class="text-input" id="email" type="text" placeholder="Insira seu email" required maxlength="30">
+            </label><br><br>
+    
+            <label>Digite sua Senha:<br> 
+                <input class="text-input" id="senha" type="password" placeholder="Insira sua senha" required maxlength="20" minlength="6">
+            </label><br><br>
+    
+            <label>Localidade:<br>
+                <select class="select">
+                    <option>--Selecione seu Estado--</option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>BH</option>
+                    <option>MG</option>
+                </select>
+            </label><br><br>
+    
+            <label>Mensagem:<br>
+                <textarea class="box-text" maxlength="150" placeholder="Digite sua Mensagem..."></textarea>
+            </label><br><br>
+    
+            <button class="btn btn-blue">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
